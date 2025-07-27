@@ -65,4 +65,4 @@ Our system intelligently analyzes a collection of PDF documents and extracts the
 - ⚡ Future-ready architecture: modular, extensible, and production-friendly
 
 
-git remote add origin https://github.com/vihsal09dream/adobe-hackathon-challenge-1b.git
+<!-- git remote add origin https://github.com/vishal09dream/adobe-hackathon-challenge-1b.git -->
