@@ -1,3 +1,4 @@
+```text
 challange1b/
 ├── app/
 │   ├── main.py                  # Entry point that iterates over all collections
@@ -28,6 +29,8 @@ challange1b/
 ├── Dockerfile                  # Builds the offline inference container
 ├── README.md                   # Clean, professional project guide
 ├── approach_explanation.md     # Written methodology for Adobe judging panel
+```
+
 
 # 📘 Adobe Hackathon 2025 – Challenge 1B  
 ### 🚀 Persona-Driven PDF Section Extractor  
