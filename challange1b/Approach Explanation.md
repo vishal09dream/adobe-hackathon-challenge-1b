@@ -87,6 +87,28 @@ The result: an **intelligent document assistant** that extracts relevant, ranked
 
 ---
 
+## Future Improvements
+
+- **Heading-level detection based on font sizes + layout**  
+  Implement more sophisticated document structure analysis by leveraging visual formatting cues to better identify hierarchical content organization.
+
+- **Fine-tuned multilingual model for Japanese or Hindi**  
+  Develop specialized language models optimized for specific non-English languages to improve accuracy in multilingual document processing.
+
+- **Richer sub-section clustering for larger documents**  
+  Enhance the clustering algorithms to better handle complex document structures and improve content organization for extensive documents.
+
+- **Advanced embedding technologies within size constraints**  
+  While powerful models like **Sentence Transformers** and **FastText by Facebook** offer superior semantic understanding capabilities, they exceed the current 1GB model size constraint. Future iterations could explore:
+  - Model compression techniques to reduce these advanced models' footprint
+  - Distilled versions of larger transformer models
+  - Hybrid approaches combining lightweight models with selective use of larger models for critical sections
+  - Cloud-based processing for size-unconstrained models when local deployment isn't required
+
+> **Note:** This acknowledges the trade-off between model performance and deployment constraints while suggesting potential paths forward for incorporating more sophisticated NLP technologies in future versions.
+
+---
+
 ## Thank You
 
 We're excited to help reimagine the future of intelligent document experiences with Adobe.
