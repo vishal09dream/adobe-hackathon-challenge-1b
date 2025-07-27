@@ -79,14 +79,6 @@ The result: an **intelligent document assistant** that extracts relevant, ranked
 
 ---
 
-##  Future Improvements
-
-- Heading-level detection based on font sizes + layout
-- Fine-tuned multilingual model for Japanese or Hindi
-- Richer sub-section clustering for larger documents
-
----
-
 ## Future Improvements
 
 - **Heading-level detection based on font sizes + layout**  
