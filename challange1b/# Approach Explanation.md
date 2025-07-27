@@ -1,12 +1,12 @@
-# 🧠 Approach Explanation – Adobe Hackathon Round 1B
+# Approach Explanation – Adobe Hackathon Round 1B
 
-## 🎯 Objective
+## Objective
 
 Our solution aims to intelligently extract and rank the most relevant sections and sub-sections from a collection of PDFs based on a **persona** and their **job-to-be-done**, fully aligned with Adobe's “Connecting the Dots” theme. The system operates entirely **offline**, with a model size under **1GB**, and processes input in **under 60 seconds**.
 
 ---
 
-## 🔄 Workflow Overview
+##  Workflow Overview
 
 ### 1. Input Parsing  
 The system begins by reading a JSON configuration (`challenge1b_input.json`) which provides:
@@ -40,7 +40,7 @@ Each document (or section) is semantically compared to the query using **cosine 
 
 ---
 
-## 📤 Output Format
+##  Output Format
 
 The final output JSON follows Adobe’s specification:
 - `metadata`: documents, persona, job, timestamp
@@ -61,7 +61,7 @@ The final output JSON follows Adobe’s specification:
 
 ---
 
-## 📦 Technologies Used
+##  Technologies Used
 
 - `PyMuPDF` for PDF parsing  
 - `onnxruntime` for fast local inference  
@@ -71,7 +71,7 @@ The final output JSON follows Adobe’s specification:
 
 ---
 
-## 🧠 Why This Works
+##  Why This Works
 
 Instead of relying on surface-level matching (e.g., keywords or font size), our system understands documents **semantically**. The persona-objective combination drives a **smart similarity score**, helping identify **what truly matters** to the user.
 
@@ -79,7 +79,7 @@ The result: an **intelligent document assistant** that extracts relevant, ranked
 
 ---
 
-## ✨ Future Improvements
+##  Future Improvements
 
 - Heading-level detection based on font sizes + layout
 - Fine-tuned multilingual model for Japanese or Hindi
@@ -87,7 +87,7 @@ The result: an **intelligent document assistant** that extracts relevant, ranked
 
 ---
 
-## 🙌 Thank You
+## Thank You
 
 We're excited to help reimagine the future of intelligent document experiences with Adobe.
 
