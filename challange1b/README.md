@@ -2,17 +2,17 @@
 
 ## How to Use
 
-1. 🗂️ Place your PDFs and `challenge1b_input.json` inside each `Collection` folder  
-2. 🛠️ Build Docker image:
+1.  Place your PDFs and `challenge1b_input.json` inside each `Collection` folder  
+2.  Build Docker image:
    ```bash
    docker build -t challenge1b-lite .
    ```
-3. 🚀 Run analysis:
+3.  Run analysis:
    ```bash
    docker run --rm -v "${PWD}/Challenge_1b:/app/Challenge_1b" challenge1b-lite
    ```
 
-💡 If using Windows, use this in PowerShell:
+ If using Windows, use this in PowerShell:
 
 ```powershell
 $vol = (Get-Location).Path + "\Challenge_1b"
@@ -21,7 +21,7 @@ docker run --rm -v "${vol}:/app/Challenge_1b" challenge1b-lite
 
 ---
 
-## 🛠️ HOW TO SET IT UP
+##  HOW TO SET IT UP
 
 ### Step 1: Create this folder structure
 Put all the provided files into correct subfolders. You can unzip or copy-paste.
@@ -37,7 +37,7 @@ docker build -t challenge1b-lite .
 docker run --rm -v "${PWD}/Challenge_1b:/app/Challenge_1b" challenge1b-lite
 ```
 ...............................................................................................................................................................................
-# 📘 Adobe Hackathon 2025 – Challenge 1B  
+#  Adobe Hackathon 2025 – Challenge 1B  
 ### 🚀 Persona-Driven PDF Section Extractor  
 **Team Name**: UV Boys 
 **Challenge ID**: Round 1B  
@@ -45,7 +45,7 @@ docker run --rm -v "${PWD}/Challenge_1b:/app/Challenge_1b" challenge1b-lite
 
 ---
 
-## 🧠 Overview
+##  Overview
 
 This solution addresses the Adobe Hackathon 2025 Challenge 1B:  
 > “Connect What Matters — For the User Who Matters.”
