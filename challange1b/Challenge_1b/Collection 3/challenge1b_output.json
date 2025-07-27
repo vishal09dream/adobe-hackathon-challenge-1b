@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "input_documents": [
+      "Breakfast Ideas.pdf",
+      "Dinner Ideas - Mains_1.pdf",
+      "Dinner Ideas - Mains_2.pdf",
+      "Dinner Ideas - Mains_3.pdf",
+      "Dinner Ideas - Sides_1.pdf",
+      "Dinner Ideas - Sides_2.pdf",
+      "Dinner Ideas - Sides_3.pdf",
+      "Dinner Ideas - Sides_4.pdf",
+      "Lunch Ideas.pdf"
+    ],
+    "persona": "Food Contractor",
+    "job_to_be_done": "Prepare a vegetarian buffet-style dinner menu for a corporate gathering, including gluten-free items.",
+    "processing_timestamp": "2025-07-27T08:55:28.573621"
+  },
+  "extracted_sections": [
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "section_title": "Add shrimp, mussels, and cooked chicken, simmer for an additional 10 minutes until",
+      "importance_rank": 1,
+      "page_number": 15
+    },
+    {
+      "document": "Dinner Ideas - Sides_1.pdf",
+      "section_title": "Instructions:",
+      "importance_rank": 2,
+      "page_number": 4
+    },
+    {
+      "document": "Dinner Ideas - Sides_1.pdf",
+      "section_title": "o Add diced tomatoes, fish stock, wine, saffron, thyme, salt, and pepper, simmer",
+      "importance_rank": 3,
+      "page_number": 9
+    },
+    {
+      "document": "Dinner Ideas - Sides_2.pdf",
+      "section_title": "o 1 teaspoon paprika",
+      "importance_rank": 4,
+      "page_number": 7
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "section_title": "Serve immediately.",
+      "importance_rank": 5,
+      "page_number": 15
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "refined_text": "Add shrimp, mussels, and cooked chicken, simmer for an additional 10 minutes until seafood is cooked and rice is tender. Garnish with lemon wedges and serve. Pork Chops with Apples Ingredients: 4 pork chops 2 apples, sliced 1 small onion, sliced 1/4 cup apple cider 1/4 cup chicken broth 2 tablespoons butter 1 tablespoon olive oil 1 teaspoon thyme Salt and pepper to taste Instructions: Season pork chops with salt and pepper. In a large skillet, heat olive oil over medium heat. Cook pork chops until browned on both sides, then set aside. In the same skillet, melt butter and saute sliced onion and apples until softened. Stir in apple cider, chicken broth, and thyme. Return pork chops to the skillet and simmer for 10 minutes until cooked through. Serve warm.",
+      "page_number": 15
+    },
+    {
+      "document": "Dinner Ideas - Sides_1.pdf",
+      "refined_text": "Instructions: o Form risotto into balls and stuff with a cube of mozzarella. o Dredge balls in flour, dip in beaten eggs, and coat with breadcrumbs. o Fry in hot oil until golden. o Drain on paper towels and serve warm. Baba Ganoush Ingredients: o 2 eggplants o 1/4 cup tahini o 1/4 cup lemon juice o 2 cloves garlic o 1/4 cup olive oil o 1 teaspoon salt Instructions: o Roast eggplants until soft, then peel and mash. o Blend mashed eggplant, tahini, lemon juice, minced garlic, and salt in a food processor. o Slowly add olive oil while blending until smooth. o Serve with a drizzle of olive oil.",
+      "page_number": 4
+    },
+    {
+      "document": "Dinner Ideas - Sides_1.pdf",
+      "refined_text": "o Add diced tomatoes, fish stock, wine, saffron, thyme, salt, and pepper, simmer for 20 minutes. o Add fish fillets, shrimp, and mussels, cook until seafood is done. o Serve hot with crusty bread. Bratkartoffeln (Fried Potatoes) Ingredients: o 4 potatoes o 1 small onion o 1/4 cup bacon o 2 tablespoons butter o 1 teaspoon salt o 1/2 teaspoon pepper Instructions: o Boil potatoes until tender, then slice. o Cook diced bacon until crispy, then remove and set aside. o Saute sliced potatoes and diced onion in butter until golden. o Stir in bacon, salt, and pepper. o Serve warm. Briam Ingredients: o 2 potatoes o 2 zucchinis o 2 eggplants o 2 tomatoes o 1 small onion o 4 cloves garlic o 1/4 cup olive oil o 1 teaspoon oregano o 1 teaspoon salt o 1/2 teaspoon pepper Instructions: o Preheat oven to 375°F (190°C).",
+      "page_number": 9
+    },
+    {
+      "document": "Dinner Ideas - Sides_2.pdf",
+      "refined_text": "o 1 teaspoon paprika o 1 teaspoon salt o Oil for frying Instructions: o Mix flour, butter, water, and beaten egg to form a dough, then let rest. o Saute ground beef, diced onion, minced garlic, chopped olives, and raisins with cumin, paprika, and salt until cooked. o Roll out dough and cut into circles. o Place a spoonful of filling on each circle and fold to seal. o Fry in hot oil until golden. o Drain on paper towels and serve warm. Escalivada Ingredients: o 2 eggplants o 2 bell peppers o 2 tomatoes o 1 small onion o 1/4 cup olive oil o 1 teaspoon salt Instructions: o Preheat oven to 400°F (200°C). o Roast eggplants, bell peppers, tomatoes, and onion until tender. o Peel and slice vegetables. o Arrange on a plate and drizzle with olive oil. o Sprinkle with salt and serve warm or at room temperature.",
+      "page_number": 7
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "refined_text": "Serve immediately. Berry and Spinach Smoothie Ingredients: 1/2 cup frozen berries 1/2 cup spinach 1/2 cup Greek yogurt 1/2 cup almond milk 1 tablespoon honey Instructions: In a blender, combine frozen berries, spinach, Greek yogurt, almond milk, and honey. Blend until smooth. Serve immediately. Fruit and Nut Bars Ingredients: 1 cup dates, pitted 1 cup mixed nuts 1/4 cup dried fruit 1 tablespoon honey Instructions: In a food processor, combine dates, mixed nuts, dried fruit, and honey. Process until the mixture comes together. Press the mixture into a greased baking dish. Refrigerate for at least 1 hour before cutting into bars. Store in an airtight container.",
+      "page_number": 15
+    }
+  ]
+}
