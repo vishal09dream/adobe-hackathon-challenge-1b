@@ -59,8 +59,7 @@ Our system intelligently analyzes a collection of PDF documents and extracts the
 -  **Fast Execution** – <60 seconds for 3–5 PDFs
 -  Future-ready architecture: modular, extensible, and production-friendly
 
- ## For more explanation of used logic : [Explanation](challange1b/Approach Explanation.md)
-
+ ## For more explanation of used logic :[Explanation](Approach%20Explanation.md)
   
 # Challenge 1B - Persona PDF Analyzer
 
